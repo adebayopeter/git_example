@@ -21,3 +21,10 @@ git rm -rf .git								-- removes all traces of git
 
 
 git diff index.txt							--show the diff to changes made when compare to what we currently have
+
+--chapter 3
+fix & amend changes
+git reset --hard babee6dac313ffe239dd2872e1b8bbdfee762362	reset everything to the way it looks like at this log. changes would be erased. Only use this if you have not shared file with anyone.
+git reset --soft babee6dac313ffe239dd2872e1b8bbdfee762362 	would get ride of the commit but would not erase changes.
+git commit --ammend
+
