@@ -1,0 +1,20 @@
+/***********************************************************
+GIT
+***********************************************************/
+--Chapter 1
+To set configuration
+git config --global user.name "adebayopeter"
+git config --global user.name "pekunmi@live.com"
+
+
+git 										-- all git command
+
+
+git init 									-- 	save git respository
+git add index.txt
+git commit -m 'First Commit'
+git log 									--	log of all commit
+
+
+--chapter 2
+git rm -rf .git								-- removes all traces of git
